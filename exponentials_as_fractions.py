@@ -9,11 +9,14 @@ def expand(x, digits):
     while True: 
         numerator=(x**counter*denominator+numerator*fac(counter))
         denominator=denominator*fac(counter)
-        if len(str(int(numerator/ggt(numerator, denominator)))) >=digits:
+        divider=ggt(numerator, denominator)
+        numerator=numerator/divider
+        denominator=denominator/divider
+        if len(str(int(numerator))) >=digits:
              break
         counter+=1
         
-    return [int(numerator/ggt(numerator, denominator)), int(denominator/ggt(numerator, denominator)), numerator/denominator]
+    return [int(numerator), int(denominator), numerator/denominator]
 
 if __name__ == '__main__':
 
