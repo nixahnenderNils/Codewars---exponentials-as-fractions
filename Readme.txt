@@ -4,11 +4,6 @@ As training object, the kata "Exponentials as fractions" from www.codewars.com i
 
 Let's see where the brings us!
 
-This is a test.
-
-And this is a bank robbery.
-I only understand trainstation.
-
 
 Text from the Codewars-Website to this Kata:
 
