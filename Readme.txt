@@ -6,6 +6,7 @@ Let's see where the brings us!
 
 This is a test.
 
+And this is bank robbery.
 
 
 Text from the Codewars-Website to this Kata:
